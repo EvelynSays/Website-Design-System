@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    border: 1px solid #2b2b2b;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.colour, .font {   
+    padding: 25px;
+    margin: 10px;
+    min-width: 75px;
+    border: 1px solid #2b2b2b;
+    border-radius: 10px;
+}
+
+.colour {
+    font-weight: bold;
+    max-width: 75px;
+    overflow: auto;
+}
+
+/* Colours and text for accessiblity colours */
+.greybg {
+    background-color: #2b2b2b;
+}
+
+.darkbluebg {
+    background-color: darkslateblue;
+
+}
+
+.bluebg {
+    background-color: slateblue;
+}
+
+.redbg {
+    background-color: firebrick;
+}
+
+.alicebluebg {
+    background-color: aliceblue;
+}
+
+.cornbg {
+    background-color: cornsilk;
+}
+
+.alicebluetxt {
+    color: aliceblue;
+}
+
+.cornsilktxt {
+    color: cornsilk;
+}
+
+.greytxt {
+    color: #2b2b2b;
+}
+
+.darkbluetxt {
+    color: darkslateblue;
+}
+
+.bluetxt {
+    color: slateblue;
+}
+
+.redtxt {
+    color: firebrick;
+}
+
+.name {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#blue {
+    background-color: aliceblue;
+    color: #2b2b2b;
+}
+
+#gray {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+
+#darkblue {
+    background-color: darkslateblue;
+    color: white;
+}
+
+#corn {
+    background-color: cornsilk;
+    color: #2b2b2b;
+}
+
+#blue2 {
+    background-color: slateblue;
+    color: white;
+}
+
+
+#red {
+    background-color: firebrick;
+    color: white;
+}
+
+#kode {
+    font-family: "Kode Mono";
+}
+
+#rubik {
+    font-family: "Rubik Mono One";
+}
+
+#space {
+    font-family: "Space Mono";
+}
+
+#text {
+    border: 1px solid #2b2b2b;
+    padding: 20px;
+}
+
+#text h1 {
+    font-family: "Rubik Mono One";
+    font-size: 40px;
+}
+
+#text h2 {
+    font-family: "Kode Mono";
+    font-size: 24px;
+}
+
+#text p {
+    font-family: "Space Mono";
+    font-size: 16px;
+}
+
+#text ul {
+    margin: 20px;
+}
+
+footer {
+    margin: 0, 10px, 20px, 10px;
+    background-color: lightsteelblue;
+    width: 100%;
+    color: darkslategray;
+    text-align: center;
+}
+
+footer a {
+    color: darkslategray;
+}
